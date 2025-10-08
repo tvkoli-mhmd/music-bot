@@ -1,8 +1,8 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import requests
-API_KEY = "7f92c6a23ac995c46bd62dc8567769f1"
-TOKEN = "8450438222:AAHRDN2Cw4TR3SJbkEY_IpFyxxBdl3T_J14"
+API_KEY = "YOUR_API_KEY"
+TOKEN = "YOUR_BOT_TOKEN"
 bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start'])
 def get_song(message):
